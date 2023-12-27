@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Docker.Client", "Docker.Client\Docker.Client.csproj", "{B29930D5-2B24-4959-99C6-5F8D43D244F1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Docker.Client.Abstractions", "Docker.Client.Abstractions\Docker.Client.Abstractions.csproj", "{34BC85AB-E149-4ABF-8D3E-E1B2807AC153}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "解决方案项", "解决方案项", "{58F39A5E-C95A-4706-A4BF-EE23306F5E9F}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B29930D5-2B24-4959-99C6-5F8D43D244F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B29930D5-2B24-4959-99C6-5F8D43D244F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B29930D5-2B24-4959-99C6-5F8D43D244F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B29930D5-2B24-4959-99C6-5F8D43D244F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34BC85AB-E149-4ABF-8D3E-E1B2807AC153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34BC85AB-E149-4ABF-8D3E-E1B2807AC153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34BC85AB-E149-4ABF-8D3E-E1B2807AC153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34BC85AB-E149-4ABF-8D3E-E1B2807AC153}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDD09D97-AE90-4B89-B446-6DEE92824BE5}
+	EndGlobalSection
+EndGlobal
